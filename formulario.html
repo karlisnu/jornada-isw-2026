@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="primer">
+        
+    <nav>
+        <ul>
+             <img src="img/ingeniero.jpg" alt="Imagen de ingeniero en software">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="formulario.html">About</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+        </nav>
+    </header>
+        <main>
+            <h1>Jornada de Ingeniero en Software 2026</h1>
+           <time datetime="2026-04-27"></time>
+        </main>
+<section class="tabla">
+    <table>
+        <caption>Detalles del Evento</caption>
+       <thead>
+           
+        <tr>
+            <th scope="col">Fecha</th>
+        </tr>
+        <tr>
+            <th scope="col">Inicio</th>
+            <th scope="col">Fin</th>
+            <th scope="col">Actividad</th>    
+                <th scope="col">tipo</th>
+                <th scope="col">Duración</th>
+            </tr>
+         </thead>
+         <tbody>
+            <td>27 de abril de 2026</td>
+            <td>11:00</td>
+            <td>16:30</td>
+            <td>Jornada de Ingeniero en Software 2026</td>
+            <td>Presencial</td>
+            <td>5 horas y 30 minutos</td>
+
+            <td>28 de abril de 2026</td>
+            <td>11:00</td>
+            <td>16:30</td>
+            <td>Jornada de Ingeniero en Software 2026</td>
+            <td>Presencial</td>
+            <td>5 horas y 30 minutos</td>
+         </tbody>
+           
+    </table>
+ <h2 class="titu">Agenda del Evento</h2>
+<section class="agenda">
+   
+
+    <div class="evento">
+        <span class="hora">11:00–12:00</span>
+        <div>
+            <h3>Conferencia 1</h3>
+            <p>Duración: 1 hora</p>
+        </div>
+    </div>
+
+    <div class="evento">
+        <span class="hora">12:00–13:00</span>
+        <div>
+            <h3>Conferencia 2</h3>
+            <p>Duración: 1 hora</p>
+        </div>
+    </div>
+
+    <div class="evento">
+        <span class="hora">13:00–13:30</span>
+        <div>
+            <h3>Entrega de reconocimientos</h3>
+        </div>
+    </div>
+
+    <div class="evento">
+        <span class="hora">13:30–14:30</span>
+        <div>
+            <h3>Conferencia 3</h3>
+            <p>Duración: 1 hora</p>
+        </div>
+    </div>
+
+    <div class="evento">
+        <span class="hora">14:30–16:30</span>
+        <div>
+            <h3>Evento cultural</h3>
+            <p>Grupo musical norteño (por confirmar) - 2 horas</p>
+        </div>
+    </div>
+</section>
+<section class="formulario">
+    <form action="registro.php" method="post">
+
+    <label>Nombre completo</label>
+    <input type="text" name="nombre" required>
+
+    <label>Correo electrónico</label>
+    <input type="email" name="email" required 
+    pattern="[0-9]{8,11}@ues\.edu\.sv">
+
+    <label>Tipo de asistencia</label>
+    <select name="tipo_asistencia" required>
+        <option value="Alumno">Alumno</option>
+        <option value="Docente">Docente</option>
+    </select>
+
+    <label>Evento principal</label><br>
+
+    <input type="radio" id="evento1" name="evento_principal" required>
+    <label for="evento1">Conferencia 1</label><br>
+
+    <input type="radio" id="evento2" name="evento_principal">
+    <label for="evento2">Conferencia 2</label><br>
+
+    <input type="radio" id="evento3" name="evento_principal">
+    <label for="evento3">Conferencia 3</label>
+
+    <label>Comentarios</label>
+    <input type="text" name="comentarios">
+
+    <button type="submit">Enviar</button>
+
+</form>
+
+
+</section>
