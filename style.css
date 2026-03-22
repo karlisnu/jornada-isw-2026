@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+.primer{
+   display: grid;
+   grid-template-columns: auto 1fr;
+   align-items: center;
+   padding: 10px 30px;
+   
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+}
+.primer img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+main{
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.agenda{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(255, 255, 255, 0.533);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.titu{
+    text-align: center;
+    color: chartreuse;
+}
+footer{
+    background-color: white;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+}
+
+.registro{
+    background-color: rgba(255, 255, 255, 0.533);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.registro img{
+    width: 30px;
+    height: 40px;
+    display: block;
+    margin-right: auto;
+}
